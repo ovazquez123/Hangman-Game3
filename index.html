@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Ball Park Hangman Game!</title>
+    <link href="./style.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+    <div class="container">
+      <div class="header">
+
+        <h1><img src="/Users/Code2Success/Desktop/Baseball.jpg" alt="Baseball" style="Width:50px;height:50px;">  Ball Park Hangman Game <img src="/Users/Code2Success/Desktop/Baseball.jpg" alt="Baseball" style="Width:50px;height:50px;"></h1> 
+
+      
+      <h2> NL/AL West Baseball Teams & Parks </h2>
+      <img src="/Users/Code2Success/Desktop/PetcoPark.jpg" alt="Petco View" style="width:800px; height:400px;">
+      <iframe width="800" height="400" src="https://www.youtube.com/embed/TAy_h-pAaXM" frameborder="0" allowfullscreen></iframe>
+      
+      </div>
+      <div class="main">
+      <h3>Press any key to get started!</h3>
+      
+      <div id="totalWins">
+        Total Wins: <span id="numWins"></span>
+      </div>
+      <div>
+        <p>Current Word</p>
+        <div class="currWord">
+
+      <div id="team">
+      </div>
+      <div id="guessRemaining">
+        Number of Guesses Remaining: <span id="noGuessesRem"></span>
+      </div>
+      <div id="lettersGuessed">
+        Letters Already Guessed: [<span id="incLettersGuessed"></span>]
+      </div>
+        <div class="letters">
+  </div>
+ <div class="container">
+      <button id="hint">Hint</button>
+      <button id="reset">Play again</button>
+    </div>
+  <script src="./game.js"></script>
+  </body>
+</html>
